@@ -7,12 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: #404040;
-  padding: 2rem;
+.site-container {
+  min-height: 100vh;
 }
-header a {
-  color: #ffffff;
-  font-weight: bold;
-  text-decoration: none;
+.btn-primary {
+  background-color: #f0c040;
+  color: #404040;
+}
+main {
+  flex: 1;
+}
+/* products styling */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.rating span {
+  color: #f0c040;
+}
+/* for each product style*/
+.product {
+  border: 1px #404040 solid;
+  margin: 1rem;
+}
+.product img {
+  width: 100%;
+  max-width: 400px;
+}
+.product-info {
+  padding: 16px;
 }
