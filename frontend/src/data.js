@@ -5,7 +5,7 @@ const data = {
       name: 'Flower Vase',
       slug: 'White-and-blue-flower-vase',
       category: 'vase',
-      images: '/images/d1.jpg', //679 * 829
+      images: '/images/d1.jpg', 
       price: 45.99,
       countInStock: 12,
       description: 'hand made ceramic vase',
